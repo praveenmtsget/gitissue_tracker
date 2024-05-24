@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Issue Tracker</title>
+</head>
+<body>
+  <h1>GitHub Issue Tracker</h1>
+  <form action="/fetch_issues" method="GET">
+    <label for="repo_url">Enter GitHub repo URL:</label>
+    <input type="text" id="repo_url" name="repo_url">
+    <button type="submit">Fetch Issues</button>
+  </form>
+  <h2>All Issues</h2>
+  <ul>
+    {% for issue in issues %}
+    <li>
+      <a href="{{ issue.html_url }}">{{ issue.title }}</a> - {{ issue.state }}
+    </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
