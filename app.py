@@ -1,4 +1,4 @@
-import requests, config
+import requests, config, os
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -14,7 +14,10 @@ def fetch_issues():
     split_url = repo_url.split("/")
     owner = split_url[3]
     repo = split_url[4]
-    git_auth = "Bearer " + config.token
+    
+    #git_auth = "Bearer " + config.token
+    # for Heroku config use env variable
+    git_auth = "Bearer " + os.environ['github_token']
 
     response = requests.get(f'https://api.github.com/search/issues?q=repo:{owner}/{repo}+is:issue&per_page=100',
             headers={
