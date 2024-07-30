@@ -1,4 +1,4 @@
-import requests, config, os
+import requests, os
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
