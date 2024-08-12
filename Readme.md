@@ -23,9 +23,9 @@ $ python app.py
 
 
 References:
-_- https://www.merge.dev/blog/get-all-issues-github-api-python
+- https://www.merge.dev/blog/get-all-issues-github-api-python
 - https://realpython.com/flask-by-example-part-1-project-setup
-- https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc_
+- https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc
 
 
 ## Enhancements
