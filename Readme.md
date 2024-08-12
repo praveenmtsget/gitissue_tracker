@@ -15,9 +15,17 @@
 ## Start application:
 $ python app.py
 
+# Using Docker:
+Build docker image(optional, for local development only): docker build -t github-issues-bot:v0.1 .
+or
+Pull docker image(for users): docker pull praveenmtsget/pydev:github-issues-bot__v0.1
+Run docker container: docker run -d -p 5000:5000 github-issues:v0.1
+
+
 References:
 - https://www.merge.dev/blog/get-all-issues-github-api-python
-- https://realpython.com/flask-by-example-part-1-project-setup/
+- https://realpython.com/flask-by-example-part-1-project-setup
+- https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc
 
 
 ## Enhancements
