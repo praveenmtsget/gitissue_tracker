@@ -7,9 +7,9 @@
 
 ## Local dev setup:
 1. Clone git repo
-2. Install python packages in virtual env: pip -m venv env
-3. Activate virtual env by running command: ./env/Scripts/activate
-4. Install python packages: pip install -r requirements.txt
+2. Install python packages in virtual env: _pip -m venv env_
+3. Activate virtual env by running command: _./env/Scripts/activate_
+4. Install python packages: _pip install -r requirements.txt_
 
 
 ## Start application:
@@ -23,9 +23,9 @@ $ python app.py
 
 
 References:
-- https://www.merge.dev/blog/get-all-issues-github-api-python
+_- https://www.merge.dev/blog/get-all-issues-github-api-python
 - https://realpython.com/flask-by-example-part-1-project-setup
-- https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc
+- https://medium.com/@komalminhas.96/a-step-by-step-guide-to-build-and-push-your-own-docker-images-to-dockerhub-709963d4a8bc_
 
 
 ## Enhancements
