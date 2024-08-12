@@ -15,7 +15,7 @@
 ## Start application:
 $ python app.py
 
-# Using Docker:
+**Using Docker:**
 Build docker image(optional, for local development only): docker build -t github-issues-bot:v0.1 .
 or
 Pull docker image(for users): docker pull praveenmtsget/pydev:github-issues-bot__v0.1
