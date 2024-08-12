@@ -2,3 +2,5 @@ config.py
 env
 __pycache__
 my_notes.txt
+/k8s/helm/githubbot-0.1.0.tgz
+/k8s/helm/ghbot/

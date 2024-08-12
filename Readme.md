@@ -21,6 +21,9 @@ $ python app.py
 - Pull docker image(for users): _docker pull praveenmtsget/pydev:github-issues-bot__v0.1_
 - Run docker container: _docker run -d -p 5000:5000 github-issues:v0.1_
 
+**Using Kubernetes & Helm:**
+- helm package githubbot
+- helm install githubbot ./githubbot-0.1.0.tgz
 
 References:
 - https://www.merge.dev/blog/get-all-issues-github-api-python
